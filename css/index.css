@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 62.5%;
+    background-color: #FBFFFB;
+}
+
+header {
+    background: url("/images/header.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    opacity: 0.9;
+    position:fixed;
+    width: 100%
+}
+
+nav div {
+    width: 65%;
+}
+
+nav img {
+    height: 5.5rem;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+li {
+    font-size: 1.6rem;
+    color: #266035;
+    font-family: 'Oxygen', sans-serif;
+}
+
+main div {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 15rem;
+}
+
+h1 {
+    font-size: 3.5rem;
+    color:#FBFFFB;
+    font-family: 'Oxygen', sans-serif;
+    letter-spacing: .3rem;
+}
+
+main button {
+    padding: 1.5rem 3.0rem;
+    color: #266035;
+    font-family: 'Oxygen', sans-serif;
+    background-color: white;
+    font-size: 1.6rem;
+    margin: 6.0rem 0;
+}
+
+.our-story {
+    background: url("/images/about-img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+.our-story div {
+    width: 25%;
+    margin-left: 75rem;
+    padding-top: 25rem;
+}
+
+h2 {
+    font-size: 3.0rem;
+    color: #266035;
+    font-family: 'Oxygen', sans-serif;
+    padding: 2.0rem;
+    text-align: center;
+    letter-spacing: .3rem;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.4rem;
+    text-align: justify;
+    word-spacing: 0.5rem;
+    line-height: 2.5rem;
+}
+
+.our-plants {
+    margin: 3.0rem;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery div {
+    width: 50%;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+}
+
+.succulents-image {
+    background: url("/images/succulants.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+.cacti-image {
+    background: url("/images/cacti.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tropicals-image {
+    background: url("/images/tropicals.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h3 {
+    font-size: 2.6rem;
+    color: #266035;
+    font-family: 'Oxygen', sans-serif;
+    padding: 3.0rem 2.0rem;
+    text-align: center;
+    letter-spacing: .3rem; 
+}
+
+.gallery p {
+    width: 50%;
+    margin: 0 auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.4rem;
+    text-align: justify;
+    word-spacing: 0.5rem;
+    line-height: 3.0rem;
+}
+
+.gallery button {
+    background-color: #266035;
+    color: white;
+    margin: 2.5rem auto;
+    padding: 1.5rem 4.5rem;
+    font-size: 1.4rem;
+}
+
+footer {
+    background-color: #266035;
+    color:white;
+}
+
+.footer-flexbox {
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 2rem 5rem;
+}
+
+footer h2, footer h3 {
+    color: white;
+    font-family: 'Oxygen', sans-serif;
+}
+
+footer h3 {
+    text-align: left;
+    padding: 3rem 0;
+}
+
+address {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.footer-image {
+    background: url("/images/shop.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50%;
+}
+
+.copyright {
+    color: white;
+    text-align: right;
+    font-size: 1.4rem;
+    padding: 2rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* font-family: 'Oxygen', sans-serif;
+font-family: 'Source Sans Pro', sans-serif; */
